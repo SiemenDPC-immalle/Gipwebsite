@@ -91,6 +91,27 @@ body .portfolio .slideClone .image img {
   transition: all 0.8s 0.1s cubic-bezier(0.79, -0.01, 0, 0.99);
   height: 100%;
 }
+body .portfolio .slideClone .image .dankmail{
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 34%;
+  position: relative;
+}
+
+body .portfolio .slideClone .image .codeuitleg{
+ margin-top: 100px;
+ width: 100%;
+ height: 100%;
+ padding-left: 20px;
+}
+
+.scrollwindow{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+}
 body .portfolio .slideClone .image .overlay {
   position: absolute;
   top: 0;
@@ -259,7 +280,6 @@ body .portfolio_home__slider .slider_inner.in .slider_inner__slide {
           animation: sliderIn 1.1s 0.65s cubic-bezier(0.79, -0.01, 0, 0.99) forwards;
 }
 body .portfolio_home__slider .slider_inner__slide {
-  /* TODO IMAGE GROOTE */
   width: 700px;
   height: 750px;
   float: left;
@@ -601,6 +621,7 @@ body .portfolio_home__title .page_portfolio2 {
   color: white;
   padding-top: 50px;
   font-style: italic;
+  padding-bottom: 20px;
 }
 
 .normaltext2 {
@@ -744,11 +765,4 @@ body .portfolio_home__title .page_portfolio2 {
   transform: rotate(90deg);
   bottom: 73px !important;
   position: absolute;
-}
-
-.dankmail{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
