@@ -621,12 +621,12 @@ body .portfolio_home__title .page_portfolio2 {
   color: white;
   padding-top: 50px;
   font-style: italic;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .normaltext2 {
   color: white;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 @-webkit-keyframes sliderIn {
